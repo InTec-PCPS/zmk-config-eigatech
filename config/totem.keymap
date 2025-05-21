@@ -106,7 +106,7 @@
 //                                     │  4 ESC  │ 5 SPACE │  6 TAB  │ │  7 RET  │ 8 BSPC  │  9 DEL  │
 //                                     └─────────┴─────────┴─────────┘ └─────────┴─────────┴─────────┘
         cmac {
-            label = "􀩿c";
+            label = "mac-c";
             bindings = <
                 &kp Q  &kp W  &kp F  &kp P  &kp B                                  &kp J  &kp L  &kp U  &kp Y  &kp APOS
                 &mt LCTRL A  &mt LALT R  &mt LCMD S  &mt LSHFT T  &mt GLOBE G      &mt GLOBE M  &mt RSHFT N  &mt RCMD E  &mt RALT I  &mt RCTRL O
@@ -130,7 +130,7 @@
 //                                     │  4 ESC  │ 5 SPACE │  6 TAB  │ │  7 RET  │ 8 BSPC  │  9 DEL  │
 //                                     └─────────┴─────────┴─────────┘ └─────────┴─────────┴─────────┘
         qmac {
-            label = "􀩿q";
+            label = "mac-q";
             bindings = <
                 &kp Q  &kp W  &kp E  &kp R  &kp T                                  &kp Y  &kp U  &kp I  &kp O  &kp P
                 &mt LCTRL A  &mt LALT S  &mt LCMD D  &mt LSHFT F  &mt GLOBE G      &mt GLOBE H  &mt RSHFT J  &mt RCMD K  &mt RALT L  &mt RCTRL SEMI
@@ -154,7 +154,7 @@
 //                                     │  4 ESC  │ 5 SPACE │  6 TAB  │ │  7 RET  │ 8 BSPC  │  9 DEL  │
 //                                     └─────────┴─────────┴─────────┘ └─────────┴─────────┴─────────┘
         cwin {
-            label = "􀁮c";
+            label = "win-c";
             bindings = <
                 &kp Q  &kp W  &kp F  &kp P  &kp B                                  &kp J  &kp L  &kp U  &kp Y  &kp APOS
                 &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp G            &kp M  &mt RSHFT N  &mt RCTRL E  &mt RALT I  &mt RGUI O
@@ -178,7 +178,7 @@
 //                                     │  4 ESC  │ 5 SPACE │  6 TAB  │ │  7 RET  │ 8 BSPC  │  9 DEL  │
 //                                     └─────────┴─────────┴─────────┘ └─────────┴─────────┴─────────┘
         qwin {
-            label = "􀁮q";
+            label = "win-q";
             bindings = <
                 &kp Q  &kp W  &kp E  &kp R  &kp T                                  &kp Y  &kp U  &kp I  &kp O  &kp P
                 &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G            &kp H  &mt RSHFT J  &mt RCTRL K  &mt RALT L  &mt LGUI SEMI
