@@ -83,21 +83,20 @@
 // │ C O M B O S  A N D  M A C R O S                                                                                                                   │
 // ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-// COMBO HELPER
-#define COMBO(NAME, BINDINGS, KEYPOS)
-  combo_##NAME {
-    timeout-ms = <50>;
-    bindings = <BINDINGS>;
-    key-positions = <KEYPOS>;
-    layers = <0>;
-  };
-
 / {
     combos {
         compatible = "zmk,combos";
 
-        COMBO(esc, &kp ESC, 0 1)
-        COMBO(enter, &kp ENTER, 34 35)
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <34 35>;
+        };
     };
 
 // ▝▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▘
